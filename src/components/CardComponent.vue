@@ -67,24 +67,12 @@
 }
 
 .flip-card-front {
-  background: linear-gradient(
-    120deg,
-    bisque 60%,
-    rgb(255, 231, 222) 88%,
-    rgb(255, 211, 195) 40%,
-    rgba(255, 127, 80, 0.603) 48%
-  );
+  background: var(--color-background-mute);
   color: coral;
 }
 
 .flip-card-back {
-  background: linear-gradient(
-    120deg,
-    rgb(255, 174, 145) 30%,
-    coral 88%,
-    bisque 40%,
-    rgb(255, 185, 160) 78%
-  );
+  background: var(--color-background-mute);
   color: white;
   transform: rotateY(180deg);
 }
