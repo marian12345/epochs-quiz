@@ -1,0 +1,240 @@
+[
+  {
+    "id": 0,
+    "name": "Griechische Antike",
+    "timePeriod": "800 v. Chr. - 30 v. Chr.",
+    "gridArea": "a",
+    "pageName": "griechische-antike"
+  },
+  {
+    "id": 1,
+    "name": "Römische Antike",
+    "timePeriod": "300 v. Chr. - 529 n. Chr.",
+    "gridArea": "b",
+    "pageName": "roemische-antike"
+  },
+  {
+    "id": 2,
+    "name": "Mittelalter",
+    "timePeriod": "750 - 1470",
+    "gridArea": "c",
+    "pageName": "mittelalter"
+  },
+  {
+    "id": 3,
+    "name": "Comedia Dell'Arte",
+    "timePeriod": "1500 - 1800",
+    "gridArea": "d",
+    "pageName": "comedia-dell-arte"
+  },
+  {
+    "id": 4,
+    "name": "Rennaissance",
+    "timePeriod": "1420 - 1600",
+    "gridArea": "e",
+    "pageName": "rennaissance"
+  },
+  {
+    "id": 5,
+    "name": "Elisabethanisches Theater",
+    "timePeriod": "1580 - 1625",
+    "gridArea": "f",
+    "pageName": "elisabethanisches-theater"
+  },
+  {
+    "id": 6,
+    "name": "Barock",
+    "timePeriod": "1600 - 1770",
+    "gridArea": "g",
+    "pageName": "barock"
+  },
+  {
+    "id": 7,
+    "name": "Die Aufklärung",
+    "timePeriod": "1720 - 1800",
+    "gridArea": "h",
+    "pageName": "die-aufklaerung"
+  },
+  {
+    "id": 8,
+    "name": "Sturm und Drang",
+    "timePeriod": "1765 - 1785",
+    "gridArea": "i",
+    "pageName": "sturm-und-drang"
+  },
+  {
+    "id": 9,
+    "name": "Weimarer Klassik",
+    "timePeriod": "1786 - 1805",
+    "gridArea": "j",
+    "pageName": "weimarer-klassik"
+  },
+  {
+    "id": 10,
+    "name": "Romantik",
+    "timePeriod": "1795 - 1815",
+    "gridArea": "k",
+    "pageName": "romantik"
+  },
+  {
+    "id": 11,
+    "name": "Biedermeier",
+    "timePeriod": "1815 - 1848",
+    "gridArea": "l",
+    "pageName": "biedermeier"
+  },
+  {
+    "id": 12,
+    "name": "Vormärz / Junges Deutschland",
+    "timePeriod": "1815 - 1848",
+    "gridArea": "m",
+    "pageName": "vormaerz-junges-deutschland"
+  },
+  {
+    "id": 13,
+    "name": "Wiener Volkstheater / Wiener Volkskomödie",
+    "timePeriod": "1815 - 1848",
+    "gridArea": "n",
+    "pageName": "wiener-volkstheater-wiener-volkskomoedie"
+  },
+  {
+    "id": 14,
+    "name": "Bürgerlicher Realismus",
+    "timePeriod": "1848 - 1890",
+    "gridArea": "o",
+    "pageName": "buergerlicher-realismus"
+  },
+  {
+    "id": 15,
+    "name": "Russischer Realismus",
+    "timePeriod": "1840 - 1910",
+    "gridArea": "p",
+    "pageName": "russischer-realismus"
+  },
+  {
+    "id": 16,
+    "name": "Naturalismus",
+    "timePeriod": "1880 - 1900",
+    "gridArea": "q",
+    "pageName": "naturalismus"
+  },
+  {
+    "id": 17,
+    "name": "Junges Wien / Wiener Moderne",
+    "timePeriod": "1890 - 1910",
+    "gridArea": "r",
+    "pageName": "junges-wien-wiener-moderne"
+  },
+  {
+    "id": 18,
+    "name": "Futurismus",
+    "timePeriod": "1909 - 1940",
+    "gridArea": "s",
+    "pageName": "futurismus"
+  },
+  {
+    "id": 19,
+    "name": "Impressionismus",
+    "timePeriod": "1890 - 1920",
+    "gridArea": "t",
+    "pageName": "impressionismus"
+  },
+  {
+    "id": 20,
+    "name": "Expressionismus",
+    "timePeriod": "1905 - 1925",
+    "gridArea": "u",
+    "pageName": "expressionismus"
+  },
+  {
+    "id": 21,
+    "name": "Symbolismus",
+    "timePeriod": "1890 - 1920",
+    "gridArea": "v",
+    "pageName": "symbolismus"
+  },
+  {
+    "id": 22,
+    "name": "Dekadenzdichtung",
+    "timePeriod": "1890 - 1920",
+    "gridArea": "w",
+    "pageName": "dekadenzdichtung"
+  },
+  {
+    "id": 23,
+    "name": "Kubismus",
+    "timePeriod": "1907 - 1918",
+    "gridArea": "x",
+    "pageName": "kubismus"
+  },
+  {
+    "id": 24,
+    "name": "Dadaismus",
+    "timePeriod": "1916 - heute",
+    "gridArea": "y",
+    "pageName": "dadaismus"
+  },
+  {
+    "id": 25,
+    "name": "Surrealismus",
+    "timePeriod": "1920 - 1945",
+    "gridArea": "z",
+    "pageName": "surrealismus"
+  },
+  {
+    "id": 26,
+    "name": "Neue Sachlichkeit",
+    "timePeriod": "1918 - 1933",
+    "gridArea": "aa",
+    "pageName": "neue-sachlichkeit"
+  },
+  {
+    "id": 27,
+    "name": "Das Epische Theater",
+    "timePeriod": "1920 - 1956",
+    "gridArea": "ab",
+    "pageName": "das-epische-theater"
+  },
+  {
+    "id": 28,
+    "name": "Theater im Nationalsozialismus",
+    "timePeriod": "1933 - 1945",
+    "gridArea": "ac",
+    "pageName": "theater-im-nationalsozialismus"
+  },
+  {
+    "id": 29,
+    "name": "Das Absurde Theater",
+    "timePeriod": "1950 - heute",
+    "gridArea": "ad",
+    "pageName": "das-absurde-theater"
+  },
+  {
+    "id": 30,
+    "name": "Weimarer Republik",
+    "timePeriod": "1918 - 1933",
+    "gridArea": "ae",
+    "pageName": "weimarer-republik"
+  },
+  {
+    "id": 31,
+    "name": "Nachkriegstheater",
+    "timePeriod": "1945 - 1955",
+    "gridArea": "af",
+    "pageName": "nachkriegstheater"
+  },
+  {
+    "id": 32,
+    "name": "Amerikanisches Sozialdrama",
+    "timePeriod": "1920 - 1960",
+    "gridArea": "ag",
+    "pageName": "amerikanisches-sozialdrama"
+  },
+  {
+    "id": 33,
+    "name": "Theater der BRD und DDR",
+    "timePeriod": "1950 - 1990",
+    "gridArea": "ah",
+    "pageName": "theater-der-brd-und-ddr"
+  }
+]

@@ -1,15 +1,27 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref } from 'vue'
+import type { Epoch } from '../types/Epoch'
+const props = defineProps<{
+  epoch: Epoch
+}>()
+const currEpoch: Epoch = props.epoch
+
+const isFlipped = ref(false)
+function toggleFlip() {
+  isFlipped.value = !isFlipped.value
+}
+</script>
 
 <template>
   <div class="card-container">
-    <div class="flip-card">
-      <div class="flip-card-inner">
+    <div class="flip-card" @click="toggleFlip">
+      <div class="flip-card-inner" :class="{ flipped: isFlipped }">
         <div class="flip-card-front">
-          <p class="title">FLIP CARD</p>
+          <p class="title">{{ currEpoch.name }}</p>
           <p>Hover Me</p>
         </div>
         <div class="flip-card-back">
-          <p class="title">BACK</p>
+          <p class="title">{{ currEpoch.timePeriod }}</p>
           <p>Leave Me</p>
         </div>
       </div>
@@ -29,6 +41,7 @@
   height: 254px;
   perspective: 1000px;
   font-family: sans-serif;
+  cursor: pointer;
 }
 
 .title {
@@ -47,7 +60,7 @@
   transform-style: preserve-3d;
 }
 
-.flip-card:hover .flip-card-inner {
+.flip-card-inner.flipped {
   transform: rotateY(180deg);
 }
 

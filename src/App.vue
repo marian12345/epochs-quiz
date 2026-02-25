@@ -3,7 +3,7 @@ import CardComponent from '@/components/CardComponent.vue'
 </script>
 
 <template>
-  <CardComponent />
+  <RouterView />
 </template>
 
 <style scoped></style>
