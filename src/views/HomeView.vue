@@ -9,17 +9,23 @@ import type { Epoch } from '../types/Epoch'
 //Get epochs from json file
 let epochs: Epoch[] = jsonData
 if (!epochs.length) {
-  throw new Error('epochs array is empty')
+  throw new Error('Epochs array is empty')
 }
 
-//
+//Get a random epoch from the array
 function getRandomEpoch(): Epoch {
   const index = Math.floor(Math.random() * epochs.length)
-  return epochs[index]
+  const randomEpoch = epochs[index]
+  if (!randomEpoch) {
+    throw new Error('Random epoch not found')
+  }
+
+  return randomEpoch
 }
 
 const currentEpoch = ref<Epoch>(getRandomEpoch())
 
+//Get next Epoch after clicking the button
 function nextEpoch() {
   let next = getRandomEpoch()
 
