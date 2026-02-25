@@ -34,3 +34,5 @@ function nextEpoch() {
     <ButtonComponent @click="nextEpoch" />
   </main>
 </template>
+
+<style scoped></style>
