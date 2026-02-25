@@ -18,11 +18,11 @@ function toggleFlip() {
       <div class="flip-card-inner" :class="{ flipped: isFlipped }">
         <div class="flip-card-front">
           <p class="title">{{ currEpoch.name }}</p>
-          <p>Hover Me</p>
+          <p>Click Me</p>
         </div>
         <div class="flip-card-back">
           <p class="title">{{ currEpoch.timePeriod }}</p>
-          <p>Leave Me</p>
+          <p>Click Me</p>
         </div>
       </div>
     </div>
