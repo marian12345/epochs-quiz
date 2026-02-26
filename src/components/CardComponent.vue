@@ -34,12 +34,15 @@ function toggleFlip() {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20%;
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 3/4;
 }
 .flip-card {
   background-color: transparent;
   width: 100%;
-  height: 254px;
+  height: 100%;
+
   perspective: 1000px;
   font-family: sans-serif;
   cursor: pointer;
@@ -83,6 +86,7 @@ function toggleFlip() {
   backface-visibility: hidden;
   border: 1px solid coral;
   border-radius: 1rem;
+  padding: 0.2rem;
 }
 
 .flip-card-front {
