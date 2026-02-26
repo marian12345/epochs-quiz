@@ -24,10 +24,6 @@ coverage
 *.sln
 *.sw?
 *.bat
-<<<<<<< HEAD
-
-=======
->>>>>>> dev
 *.tsbuildinfo
 
 .eslintcache
