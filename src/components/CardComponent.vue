@@ -37,6 +37,7 @@ function toggleFlip() {
   width: 100%;
   max-width: 400px;
   aspect-ratio: 3/4;
+  -webkit-tap-highlight-color: transparent;
 }
 .flip-card {
   background-color: transparent;
@@ -46,6 +47,7 @@ function toggleFlip() {
   perspective: 1000px;
   font-family: sans-serif;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .title {
@@ -67,6 +69,7 @@ function toggleFlip() {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .flip-card-inner.flipped {
