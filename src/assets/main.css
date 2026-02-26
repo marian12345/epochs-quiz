@@ -8,8 +8,6 @@
 }
 
 body {
-  min-height: 90vh;
-  min-height: 90dvh;
   color: var(--color-text);
   background: var(--color-background);
   line-height: 1.6;

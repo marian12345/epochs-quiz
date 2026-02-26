@@ -17,11 +17,11 @@ function toggleFlip() {
     <div class="flip-card" @click="toggleFlip">
       <div class="flip-card-inner" :class="{ flipped: isFlipped }">
         <div class="flip-card-front">
-          <p class="title">{{ currEpoch.name }}</p>
+          <p class="title" lang="de">{{ currEpoch.name }}</p>
           <p>Click Me</p>
         </div>
         <div class="flip-card-back">
-          <p class="title">{{ currEpoch.timePeriod }}</p>
+          <p class="title" lang="de">{{ currEpoch.timePeriod }}</p>
           <p>Click Me</p>
         </div>
       </div>
@@ -34,10 +34,11 @@ function toggleFlip() {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 20%;
 }
 .flip-card {
   background-color: transparent;
-  width: 190px;
+  width: 100%;
   height: 254px;
   perspective: 1000px;
   font-family: sans-serif;
@@ -49,6 +50,11 @@ function toggleFlip() {
   font-weight: 900;
   text-align: center;
   margin: 0;
+
+  overflow-wrap: break-word;
+  word-break: normal;
+  min-width: 0;
+  hyphens: auto;
 }
 
 .flip-card-inner {

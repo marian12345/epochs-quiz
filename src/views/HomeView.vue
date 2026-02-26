@@ -36,9 +36,17 @@ function nextEpoch() {
 <template>
   <main>
     <CardComponent :epoch="currentEpoch" :key="currentEpoch.id" />
-
     <ButtonComponent @click="nextEpoch" />
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  min-height: 90vh;
+  min-height: 90dvh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+</style>
